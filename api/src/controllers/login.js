@@ -2,8 +2,8 @@ require('dotenv').config({ path: "./src/.env" }); //con esto se puede acceder al
 
 const STATUS_OK = 200;
 const STATUS_ERROR = 404;
-const DB_EMAIL = process.env.EMAIL;
-const DB_PASSWORD = process.env.PASSWORD;
+const DB_EMAIL = process.env.EMAIL ||"miguel@hotmail.com";
+const DB_PASSWORD = process.env.PASSWORD || "@Model101";
 
 function login(req, res) {
   const { password, email } = req.query;
