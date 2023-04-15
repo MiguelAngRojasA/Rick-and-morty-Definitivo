@@ -1,0 +1,15 @@
+ 
+  .container {
+    display: flex;   
+    width: 80%;
+    height: 100vh;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+  }
+  
+  
+  .imagen{
+    width: 40%;
+    border-radius: 20px;
+  }
