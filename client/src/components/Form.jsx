@@ -2,8 +2,9 @@ import React from "react";
 import { useState } from "react";
 import validation from "./validation";
 import style from "../styles/Form.module.css";
-import loginImage from '../img/Login.jpg'
-
+import loginImage from '../img/Login.jpg';
+import profile from '../img/profile.JPG';
+ 
 export default function Login({ login }) {
   //Crea un estado local llamado userData. Este debe inicializarse como un objeto con las propiedades email y password iguales a un string vacío.
   const [userData, setUserData] = useState({
@@ -48,6 +49,13 @@ export default function Login({ login }) {
 
       </div>
       <form className={style.form} onSubmit={handleSubmit}>
+      <div className={style.imgs}>
+    <div className={style.container_image}>
+      <img src={profile} alt="profile" />
+      
+    </div>
+    <h1> Login page</h1>
+  </div>
         <label>Email</label>
         <input
           name="email"

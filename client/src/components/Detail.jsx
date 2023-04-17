@@ -34,8 +34,8 @@ export default function Detail() {
       <img src={character.image} alt={character.name} />
       <div>
         
-        <h1>Name: {character.name}</h1>
-        <h2>Species: {character.species}</h2>
+        <h1 className={style.tittle} >{character.name}</h1>
+        <h2 className={style.sub_tittle}>{character.species}</h2>
       </div>
 
       <div className={style.text_contain}>

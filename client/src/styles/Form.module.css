@@ -1,14 +1,15 @@
 .form {
     width: 30%;
-    height: 30vh;
+    height: 50vh;
     background-color: #39752169;
     padding: 20px;
-    border-radius: 4px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+    box-shadow: 2px 2px 20px 14px rgb(42 92 9);
   }
   
   .container {
@@ -20,7 +21,12 @@
     height: 100vh;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly;   
+    padding-bottom: 50px;
+    background:url("../img/fondo.jpg"); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
   }
   
   label{
@@ -61,3 +67,17 @@
     width: 40%;
     border-radius: 20px;
   }
+  .imgs{
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+  }
+.container_image {
+  background-color: rgb(8, 8, 8); 
+  border-radius: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  width: 80px;
+}

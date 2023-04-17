@@ -1,5 +1,8 @@
 .app {
-    background-color: #334;
+  background:url("../img/fondo.jpg"); 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: cover;
     
   }
   
